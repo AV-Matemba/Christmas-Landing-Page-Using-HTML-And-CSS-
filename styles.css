@@ -1,0 +1,117 @@
+body{
+	margin:0px;
+	padding:0px;
+	background-repeat: no-repeat;
+	background-image:url("fundo.jpg");
+	background-size:cover;
+	background-position:center;
+	
+}
+html,body{
+    height:100%;
+}
+
+.santa1{
+	max-width:10%;
+	height:100px;
+	
+}
+.navbar{
+	width:85%;
+	margin:auto;
+	padding: 0;
+	display:flex;
+	align-itens:center;
+	justify-content:center;
+	position:float;
+}
+.navbar ul li{
+	font-family: "Sofia", sans-serif;
+	display:inline-block;
+	margin:20px;
+	padding-right:90px;
+	position:relative;
+	list-style:none;
+	color:white;
+	cursor:pointer;
+	font-size:20px;
+}
+.container{
+	background-color:#BB2528;
+}
+.santa2{
+	max-width:10%;
+	height:100px;
+	
+}
+#santa3{
+	max-width:25%;
+    height:auto;
+}
+p{
+	font-size:30px;
+	font-weight:bold;
+	padding-top:80px;
+    font-family: "Sofia", sans-serif;
+  font-size: 30px;
+}
+.paragrafo{
+	margin:50px;
+	padding:50px;
+	background-color:#146B3A;
+	border:3px dotted white;
+}
+.santa4{
+	max-width:25%;
+    height:auto;
+	position:relative;
+	left:45%;
+	bottom:80px;
+}
+
+
+#paragraf{
+	 position: relative;
+  top: 25%;
+  right:14%;
+  width: 100%;
+  text-align: center;
+	font-family: 'PT Serif', serif;
+}
+button{
+	position:float;
+	bottom:350px;
+	right:250px;
+	width:200px;
+	padding: 15px 0;
+	text-align:center;
+	margin:20px 10px;
+	border-radius:25px;
+	font-weight:bold;
+	border:2px solid red;
+	background:transparent;
+	color:#fff;
+	cursor:pointer;
+	position:relative;
+	overflow:hidden;
+}
+
+
+span{
+	background:red;
+	height:100%;
+	width:0%;
+	border-radius:25px;
+	position:absolute;
+	left:0;
+	bottom:0;
+	z-index:-1;
+	transition:0.5s;
+}
+button:hover span{
+	width:100%;
+}
+		
+button:hover{
+	border:none;
+}
