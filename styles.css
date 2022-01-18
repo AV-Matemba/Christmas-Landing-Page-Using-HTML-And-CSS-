@@ -115,3 +115,50 @@ button:hover span{
 button:hover{
 	border:none;
 }
+
+
+@media only screen and (max-width:1116px){
+	button{
+		bottom:300px;
+	}
+}
+@media only screen and (max-width:1015px){
+	button{
+		display: inline-block; 
+		border-radius:25px;
+		width: 200px; 
+		height: 50px;
+	}
+}
+@media only screen and (max-width:1000px){
+	button{
+		display: inline-block; 
+		border-radius:25px;
+		width: 200px; 
+		height: 50px;
+		bottom:250px;
+	}
+}
+@media only screen and (max-width:910px){
+	button{
+		bottom:250px;
+		right:200px;
+		border-radius:25px;
+		width: 150px; 
+		height: 30px;
+		text-align:center;
+		
+	}
+}
+@media only screen and (max-width:810px){
+	button{
+		bottom:200px;
+	}
+}
+@media only screen and (max-width:715px){
+		button{
+		width: 110px; 
+		height: 25px;
+		bottom:200px;
+	}
+}
